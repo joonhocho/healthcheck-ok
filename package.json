@@ -1,6 +1,6 @@
 {
   "name": "healthcheck-ok",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple healthcheck middleware for express.js that sends 200.",
   "main": "lib/index.js",
   "scripts": {
