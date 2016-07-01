@@ -17,9 +17,12 @@ npm install --save healthcheck-ok
 
 ### Usage
 ```javascript
+import express from 'express';
 import healthcheck from 'healthcheck-ok';
 
-express.use('/healthcheck', healthcheck);
+const app = express();
+
+app.use('/healthcheck', healthcheck);
 ```
 
 
